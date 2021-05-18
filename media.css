@@ -1,0 +1,93 @@
+@media(max-width: 1100px) {
+    .wrapper .arrow__prev__display {
+        left: 460px;
+        top: -50px;
+        transition: 0.5s;
+    }
+    .wrapper .arrow__next__display {
+        left: 540px;
+        top: -50px;
+        transition: 0.5s;
+    }
+}
+@media(max-width: 960px) {
+    .about__block {
+        margin-top: -115px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper .multiple-items {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        position: absolute;
+        left: 0;
+        top: -180px;
+        max-width: 900px;
+        width: 100%;
+    }
+    .header__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__block__nav__search__lp {
+        display: none;
+    }
+    .wrapper .about__block__left__media__img {
+        display: block;
+    }
+    .wrapper .header__block {
+        margin-top: 20px;
+    }
+    .about__block__right {
+        display: none;
+    }
+}
+@media(max-width: 620px) {
+    .wrapper .arrow__prev__display {
+        left: 40%;
+        top: 200px;
+        transition: 0.5s;
+    }
+    .wrapper .arrow__next__display {
+        left: 55%;
+        top: 200px;
+        transition: 0.5s;
+    }
+    .wrapper .about__block__right__block__nav {
+        display: none;
+    }
+    .wrapper .container__right {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .about__block__right__heading::before {
+        display: none;
+    }
+    .wrapper .about__block__right__heading h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 450px) {
+    .wrapper .about__block__right__heading h1 {
+        font-size: 40px;
+    }
+    .header__block__img {
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+    .wrapper .arrow__prev {
+        left: 40%;
+        top: 120px;
+        transition: 0.5s;
+    }
+    .wrapper .arrow__next {
+        left: 55%;
+        top: 120px;
+        transition: 0.5s;
+    }
+}
